@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de dogs</title>
+</head>
+<body>
+    <div class="painel">
+        <h1> Gerador de imagens aleatórias</h1>
+        <div class="imagem"> </div>
+
+        <button id="gerarImagens"> Gerar </button>
+        
+    </div>
+    <script>
+        var imagem = document.getElementById("imagem");
+        var botao = document.getElementById("gerarImagem");
+
+         botao.addEventListener('click', gerarDog);
+
+         function gerarDog(){
+            fetch('https://dog.ceo/api/breeds/image/random')
+            .then(response => response.json())
+            .then(data => { })
+         }
+
+    </script>
+</body>
+</html>

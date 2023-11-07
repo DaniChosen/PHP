@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black ;
+}
+
+
+
+
+
+
+.painel{
+    width: 300px; 
+    margin: auto;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+h1{
+     margin: 0;
+}
+
+
+textarea{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid gray 
+
+
+}
+.enviar {
+    background-color:black ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color:white ;
+    cursor: pointer;
+} 
+
+.botao{
+    background-color:black;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.card:hover{
+    width: 95%;
+    background-color: #e6ebf1;
+    box-shadow: 2px 2px 10px black;
+    
+}
